@@ -1,6 +1,6 @@
 file { '/etc/owned_by_puppet':
    ensure => present,
-   owner => 'mysql'
+   owner => 'mysql',
    group => 'apache'
    mode => '0644',
 }
