@@ -2,7 +2,7 @@ file { '/etc/owned_by_puppet':
    ensure => present,
    owner => 'mysql',
    group => 'apache'
-   mode => '0644',
+   mode => '755',
 }
 
 file { '/root/test_dir':
