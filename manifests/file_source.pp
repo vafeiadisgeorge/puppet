@@ -1,3 +1,3 @@
 file { '/etc/motd':
-   source => '/examples/files/motd.txt',
+   source => '/etc/puppetlabs/code/environments/production/examples/files/motd.txt',
 }
