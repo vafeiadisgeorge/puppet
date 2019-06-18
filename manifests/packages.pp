@@ -3,7 +3,7 @@ package { 'apparmor':
 }
 
 package { 'openssl':
-  ensure => 'openssl-1.0.1e-57.el6.x86_64',
+  ensure => 'openssl-1.0.1e-57.el6',
 }
 
 
