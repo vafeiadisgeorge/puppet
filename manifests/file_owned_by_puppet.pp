@@ -1,8 +1,8 @@
 file { '/etc/owned_by_puppet':
    ensure => present,
-   owner => 'mysql',
-   group => 'apache'
-   mode => '755',
+   owner  => 'mysql',
+   group  => 'apache',
+   mode   => '0755',
 }
 
 file { '/root/test_dir':
