@@ -2,6 +2,7 @@
 branch=master
 cd /root/puppet_project
 git add .
+echo "Please Enter the Commit Message"
 read commitMessage
 git commit -am "$commitMessage"
 git push origin $branch
