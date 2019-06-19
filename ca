@@ -1,0 +1,7 @@
+#!/bin/bash
+branch=master
+cd /root/puppet_project
+git add .
+read commitMessage
+git commit -am "$commitMessage"
+git push origin $branch
